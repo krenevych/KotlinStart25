@@ -54,7 +54,7 @@ class Person(
     }
 
     override fun toString(): String {
-        return "Person(name='${this@Person.name}', lastName='${this@Person.lastName}', age=${this@Person.age}, id=$id)"
+        return "dataclasses.Person(name='${this@Person.name}', lastName='${this@Person.lastName}', age=${this@Person.age}, id=$id)"
     }
 
     init {

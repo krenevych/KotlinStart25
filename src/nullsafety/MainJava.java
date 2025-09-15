@@ -1,7 +1,5 @@
 package nullsafety;
 
-import scopefunctions.Person;
-
 public class MainJava {
 
     static Person person;

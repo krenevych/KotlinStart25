@@ -21,7 +21,7 @@ fun main() {
         )
     )
 
-    println(team!!.person2.name)
+    println(team!!.person2.name) // Do not use !!. in release code!!!!!
 //    println(team.person2.lastName)
 //    println(team.person2.age)
 

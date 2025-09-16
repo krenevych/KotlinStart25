@@ -6,31 +6,25 @@ class Team(
 //    var person3: Person = null,
 )
 
-var team: Team? = null
+lateinit var team: Team
 
 fun main() {
 
-    team = Team(
-        Person(
-            "Mykola", "Ilchuk", 20
-        ),
-        Person(
-            "Maksym", "Paschenko", 19
-        )
-    )
+    // задаються імена та вік учасників команди...
 
-    println(team?.person2?.name)
-    println(team?.person2?.lastName)
-    println(team?.person2?.age)
+//    team = Team(
+//        Person(
+//            "Mykola", "Ilchuk", 20
+//        ),
+//        Person(
+//            "Maksym", "Paschenko", 19
+//        )
+//    )
 
-    team?.let {
-        with(it.person2){
-            println(name)
-            println(lastName)
-            println(age)
-        }
+    println(team.person2.name)
+    println(team.person2.lastName)
+    println(team.person2.age)
 
-    }
 
 
 }

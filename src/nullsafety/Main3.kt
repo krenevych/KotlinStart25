@@ -12,14 +12,14 @@ fun main() {
 
     // задаються імена та вік учасників команди...
 
-//    team = Team(
-//        Person(
-//            "Mykola", "Ilchuk", 20
-//        ),
-//        Person(
-//            "Maksym", "Paschenko", 19
-//        )
-//    )
+    team = Team(
+        Person(
+            "Mykola", "Ilchuk", 20
+        ),
+        Person(
+            "Maksym", "Paschenko", 19
+        )
+    )
 
     println(team.person2.name)
     println(team.person2.lastName)

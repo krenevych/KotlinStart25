@@ -6,7 +6,7 @@ class Team(
 //    var person3: Person = null,
 )
 
-lateinit var team: Team
+var team: Team? = null
 
 fun main() {
 
@@ -21,9 +21,9 @@ fun main() {
         )
     )
 
-    println(team.person2.name)
-    println(team.person2.lastName)
-    println(team.person2.age)
+    println(team!!.person2.name)
+//    println(team.person2.lastName)
+//    println(team.person2.age)
 
 
 
